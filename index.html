@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Website Toggle Menu With JS</title>
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+        <div class="social">
+            <input type="search" placeholder="Search...">
+            <div class="icon">
+                <a href="https://facebook.com/r0ot.sh/"><i class="fa fa-facebook"></i></a>
+                <a href="https://instagram.com/r0ot.sh/"><i class="fa fa-instagram"></i></a>
+                <a href="https://twitter.com/TheXerr0r/"><i class="fa fa-twitter"></i></a>
+                <a href="https://linkedin.com/TheXerr0r/"><i class="fa fa-linkedin"></i></a>
+                <a href="https://youtube.com/c/TheXerr0r/"><i class="fa fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="nav-content">
+            <a href="./index.html"><img src="./images/logo.png" alt=""></a>
+        </div>
+        <nav class="nav-main">
+            <div class="btn-toggle-nav" onclick="toggleNav()"></div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Protfolio</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Gellery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <aside class="nav-sidebar">
+            <ul>
+                <li><span>Projects</span></li>
+                <li><a href="#">Making a Website</a></li>
+                <li><a href="#">Creating a Video</a></li>
+                <li><a href="#">SEO Optimizing a Website</a></li>
+                <li><a href="#">Walking through th Park</a></li>
+                <li><a href="#">Just another Day</a></li>
+            </ul>
+            <div class="icon">
+                <a href="https://facebook.com/r0ot.sh/"><i class="fa fa-facebook"></i></a>
+                <a href="https://instagram.com/r0ot.sh/"><i class="fa fa-instagram"></i></a>
+                <a href="https://twitter.com/TheXerr0r/"><i class="fa fa-twitter"></i></a>
+                <a href="https://linkedin.com/TheXerr0r/"><i class="fa fa-linkedin"></i></a>
+                <a href="https://youtube.com/c/TheXerr0r/"><i class="fa fa-youtube"></i></a>
+            </div>
+        </aside>
+        
+        <!-- Swiper -->
+        <div class="row">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./images/android.jpg" class="name111" alt="Just a Image of Slide Show">
+                      <div class="caption">
+                        <a href="#"><h3>Android 11 Had Released</h3></a>
+                    </div>
+                    </div>
+                    <div class="swiper-slide img2"><img src="./images/apple-news.jpg" alt="Just a Image of Slide Show">
+                      <div class="caption">
+                        <a href="#"><h3>Apple Release iOS 15</h3></a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide img3"><img src="./images/appleVSmicrosoft.jpg" alt="Just a Image of Slide Show">
+                      <div class="caption">
+                        <a href="#"><h3>Apple Vs Microsoft Take Action Of Each Other</h3></a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide"><img src="./images/apple.jpg" alt="Just a Image of Slide Show">
+                      <div class="caption">
+                        <a href="#"><h3>Apple Event 2021</h3></a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide"><img src="./images/cyber.jpg" alt="Just a Image of Slide Show">
+                      <div class="caption">
+                        <a href="#"><h3>Android Security Updates Had Released</h3></a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide"><img src="./images/hacker.jpg" alt="Just a Image of Slide Show">
+                      <div class="caption">
+                        <a href="#"><h3>Hackers Take Action Of Android Users</h3></a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide"><img src="./images/MITB.jpg" alt="Just a Image of Slide Show">
+                      <div class="caption">
+                        <a href="#"><h3>What is MITB attack?</h3></a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide"><img src="./images/security.jpg" alt="Just a Image of Slide Show">
+                      <div class="caption">
+                        <a href="#"><h3>Few Security Risks Released Today</h3></a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide"><img src="./images/windows.jpg" alt="Just a Image of Slide Show">
+                      <div class="caption">
+                        <a href="#"><h3>Microsoft Released 6 New Bugs In Windows 10</h3></a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide"><img src="./images/1.jpg" alt="Just a Image of Slide Show">
+                      <div class="caption">
+                        <a href="#"><h3>What is Network?</h3></a>
+                      </div>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination2"></div>
+            </div>
+            <div class="slide-col">
+                <img src="./images/hacker.jpg" alt="" class="name1">
+                <div class="two">
+                    <img src="./images/cyber.jpg" alt="">
+                    <img src="./images/apple-news.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="content">
+          <div class="news-title">
+            <h3>Today's News</h3>
+          </div>
+        </div>
+        <section class="news-section">
+          <h1>Latest Technology News</h1>
+          <p>Latest Technology News Will Be Sharing Here</p>
+          <div class="row">
+              <div class="news-col">
+                  <img src="./images/windows.jpg" alt="an image of london">
+                  <div class="layer">
+                    <h4>Microsoft Released 6 New Bugs In Windows 10</h4>
+                    <time id="dateTime"></time>
+                  </div>
+              </div>
+              <div class="news-col">
+                <img src="./images/apple.jpg" alt="an image of london">
+                <div class="layer">
+                  <h4>Apple Event 2021</h4>
+                  <time id="dateTime2"></time>
+                </div>
+              </div>
+              <div class="news-col">
+                  <img src="./images/hacker.jpg" alt="an image of NewYork">
+                  <div class="layer">
+                    <h4>Hackers Take Action Of Android Users</h4>
+                    <time id="dateTime3"></time>
+                  </div>
+              </div>
+              <div class="news-col">
+                  <img src="./images/appleVSmicrosoft.jpg" alt="an image of WASHINGTON">
+                  <div class="layer">
+                    <h4>Apple Vs Microsoft Take Action Of Each Other</h4>
+                    <time id="dateTime4"></time>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+            <div class="news-col">
+                <img src="./images/android.jpg" alt="an image of london">
+                <div class="layer">
+                    <h4>Android 11 Had Released</h4>
+                    <time id="dateTime5"></time>
+                </div>
+            </div>
+            <div class="news-col">
+              <img src="./images/security.jpg" alt="an image of london">
+              <div class="layer">
+                <h4>Few Security Risks Released Today</h4>
+                <time id="dateTime6"></time>
+              </div>
+            </div>
+            <div class="news-col">
+                <img src="./images/cyber.jpg" alt="an image of NewYork">
+                <div class="layer">
+                  <h4>Android Security Updates Had Released</h4>
+                  <time id="dateTime7"></time>
+                </div>
+            </div>
+            <div class="news-col">
+                <img src="./images/apple-news.jpg" alt="an image of WASHINGTON">
+                <div class="layer">
+                  <h4>Apple Release iOS 15</h4>
+                  <time id="dateTime8"></time>
+                </div>
+            </div>
+        </div>
+      </section>
+
+    
+
+      <footer>
+        <hr>
+        <div class="row3">
+          <div class="footer-col">
+            <div class="about">
+              <h3>About Us</h3>
+              <p>Under a unique banner, but a super connotation, which is “Technology is Our World,” Tech Eye started as one of the local leading projects in the Iraqi Kurdistan Region to fulfill and provide the technological needs and services.  What make us an outstanding company is a progressed and developed company in the field of Information Technology.
+              </p>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h3 id="cata">Categories</h3>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Computer</a></li>
+              <li><a href="#">Mobile</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>Follow US</h3>
+            <div class="footer-icon">
+              <a href="https://facebook.com/r0ot.sh/"><i class="fa fa-facebook"><h6>Facebook</h6></i></a>
+              <a href="https://instagram.com/r0ot.sh/"><i class="fa fa-instagram"><h6>Instagram</h6></i></a>
+              <a href="https://youtube.com/c/TheXerr0r/"><i class="fa fa-youtube"><h6>YouTube</h6></i></a>
+            </div>
+          </div>
+          <div class="footer-col latest-footer">
+            <img src="./images/techeye.png" alt="" class="fotter-logo">
+          </div>
+        </div>
+        <div class="copyright">
+          <div class="fo-bottom">  
+            <div class="fo-copy">
+              <p>Copyright © 2021 Techeye</p>
+            </div>
+            <div class="creator">
+              <p>Created By: <a href="#">Ehsan Faramarz</a></p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    
+      
+        
+        <script src="main.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+              slidesPerView: 1,
+              spaceBetween: 0,
+              keyboard: {
+                enabled: true,
+              },
+              pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+              },
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+              },
+            });
+          </script>
+    </body>
+</html>
